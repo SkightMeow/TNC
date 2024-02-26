@@ -1,0 +1,193 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic"
+	group: "3A38A9217806CA03"
+	id: "1645182EF0AE6877"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"Unleash your inner mage! Craft custom spells tailored to your desires, wield enchanted baubles, fuel magical mechanisms, and automate your world with charming servants!"
+				""
+				"Start your journey by uncovering the secrets within a \"&eWorn Notebook&r\". Let it guide you through the wonders of Ars Nouveau."
+				""
+				"The possibilities are endless... This is just the beginning. Dive into Ars Nouveau and discover a world of magic, customization, and wonder. Open the book, unlock your potential, and forge your own legend!"
+			]
+			hide: true
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "0A15C9AD4E56865A"
+			rewards: [{
+				id: "7F8338D917CA61D2"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Master Magic, Forge Your Legend: Explore Ars Nouveau!"
+			tasks: [{
+				id: "69163DF560CD05DC"
+				type: "checkmark"
+			}]
+			title: "Ars Nouveau"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"Harness the power of the unseen! This guide delves into the art of spirit summoning. Forget wands and flashy spells - this arcane power lies in commanding ethereal beings known as &ldemons&r."
+				""
+				"Through occult rituals, draw these denizens from \"&lThe Other Place&r\" to your service. Automate tasks, store untold riches, mine in void dimensions, forge enchanted tools, gain loyal familiars - the possibilities are limitless."
+				""
+				"Your journey begins with the &l&eDictionary of Spirits&r. This tome unlocks the secrets of the spirit world. Follow its guidance, seek hidden otherworld groves with your newfound \"&lThird Eye&r\", and prepare to summon your first demon."
+				""
+				"Embrace the power of the unseen. Command spirits, unlock arcane secrets, and forge your own legend in the world of Minecraft. Remember, this is just the beginning... delve deeper and unearth the true potential of this forbidden magic."
+			]
+			hide: true
+			icon: "occultism:spirit_fire"
+			id: "722A041628900184"
+			rewards: [{
+				id: "243DFB092B713AFC"
+				item: {
+					Count: 1b
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Unveiling the Secrets of Spirits"
+			tasks: [{
+				id: "57DC1352D76EFBB0"
+				title: "Occultism"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0A15C9AD4E56865A"
+				"722A041628900184"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"Delve deeper into the secrets of Ars Ocultas within the &eWorn Notebook&r for a complete overview."
+				""
+				"Unleash captured Spirits from their jars to automatically gather and process items within a 7x7 radius. Simply place items directly on the jar or utilize pipes, hoppers, or even &eStarbuncles&r for convenient automation."
+				""
+				"Also, &eJanitor Spirits&r offer an extra perk! They automatically push processed items into any inventory placed atop their jar, streamlining your workflow."
+				""
+				"New recipes make acquiring and utilizing Spirits smoother, allowing you to focus on harnessing their potential."
+			]
+			hide: true
+			icon: "occultism:ritual_dummy/summon_foliot_cleaner"
+			id: "6D1792BD08D9A88F"
+			subtitle: "The Power of Ars Ocultas"
+			tasks: [{
+				id: "6B93ECF5C2F44C57"
+				title: "Ars Ocultas"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"Enhance your world with &6Pylons&r: Utility blocks for every need!"
+				""
+				"&6Expulsion Pylon&r: This block, ideal for servers, lets you banish unwanted players from its chunk, while whitelisting trusted friends. Craft them and pair them with &ePlayer Filters&r for selective control."
+				""
+				"&6Infusion Pylon&r: Embrace permanent potions! Apply any effect, anywhere, with this pylon and activated &ePotion Filters&r. Extract potion durations and combine them for extended benefits. Craft &efilters&r, fill them with potion power, and enjoy lasting enhancements!"
+				""
+				"&6Harvester Pylon&r: Farewell, tedious farming! This pylon automatically harvests crops in a customizable area, placing them in an inventory above. Configure size, use hoes for efficiency, or even employ unbreakable tools. Craft it and watch your farm flourish!"
+				""
+				"&6Interdiction Pylon&r: Silence the mobs! Define a chunk area and banish unwanted creatures with this pylon and &eMob Filters&r. &2Right-click&r mobs with &efilters&r to target them, and craft the pylon to enforce your peaceful domain."
+				""
+				"Each &ePylon&r offers unique solutions, crafted with specific recipes. Discover their potential with newfound utility and influence!"
+			]
+			hide: true
+			icon: "pylons:expulsion_pylon"
+			id: "2E2F96205225F7CC"
+			shape: "hexagon"
+			subtitle: "Utility and Control"
+			tasks: [{
+				id: "15181B41D4E237DD"
+				title: "Pylons"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"Some speak of strange words that take you right back to your bed... Those words are \"/home\". But, no matter how many times you try you can't seem to teleport home. "
+				""
+				"You however found another way. You can craft unique &6\"Homebound&r\" items to bind your \"home\" to. &2Crouching&r and using the item sets your home."
+				"You can use various items, each with cooldown, distance limits, and unique features!"
+				""
+				"Using the item normally will begin the teleport process. Most items take around 10 seconds to use. If you are mounted on a pet that you own then it will teleport with you"
+				""
+				""
+				"Explore diverse options: Upgrade from the basic &eHomeward Stone&r to items like:"
+				""
+				"&eHaven Stone&r: Teleport from any dimension, but requires Netherite."
+				"&eHomeward Bone&r: Craft on the go for a one-time escape, but with a hefty cooldown."
+				"&eHearthwood&r: Perfect for quick base navigation within 160 blocks, with a 10-minute cooldown."
+				"&eDusk Stone&r: Cooldown scales based on distance, offering flexibility."
+				""
+				"You can lookup these homebound items, and while &2holding shift&r, they explain more about their uses."
+				""
+				""
+				"&4Notes&r: "
+				""
+				"- If you take damage while channeling the warp it cancels it and adds a 5 second cooldown."
+				"- Having Duplicates of the same item won't let you dodge the cooldown."
+			]
+			hide: true
+			icon: "homebound:homeward_stone"
+			id: "0BCC1517217F29C2"
+			shape: "hexagon"
+			subtitle: "Take Me Home"
+			tasks: [{
+				id: "6A00AA9E74B7FC06"
+				title: "Homebound"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"&6Waystones&r are magical blocks that can be found across the world, or crafted. These nifty stone pillers allow the player to return to them once they've been previously activated. This can be done through  either a &eWarp Scroll&r, a rechargeable &eWarp Stone&r, or by using an existing &eWaystone&r to hop from one to the other."
+				""
+				"Place them in your bases or outposts to swiftly teleport between locations!"
+			]
+			hide: true
+			icon: "waystones:waystone"
+			id: "73509D66921D4B52"
+			shape: "hexagon"
+			subtitle: "The World is Connected"
+			tasks: [{
+				id: "6000073B2FCE4476"
+				title: "Waystones"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+	]
+	title: "Magic"
+}

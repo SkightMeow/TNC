@@ -1,0 +1,727 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "3A38A9217806CA03"
+	icon: "minecraft:emerald"
+	id: "3EE087AEEEEAFD67"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:item/stone_pickaxe"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "kubejs:textures/images/text_logo.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:item/stone_sword"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			click: "https://discord.gg/dmx4VTBXSu"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "supplementaries:textures/gui/book/icon/discord.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -2.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "one_started"
+			description: [
+				"&aWelcome to Minecraft: The Next Chapter!&r"
+				""
+				"Gear up, pickaxe prepped? Time to dive into a Minecraft experience like no other."
+				""
+				"Follow questlines to learn more about how to have the best possible experience 💖"
+				""
+				"&6Click the checkmark above, and never forget to always properly check ✓ each quest you are done reading!&r"
+				""
+				"Also, don't forget to join the official Discord Server by clicking the discord button next to this quest ->"
+				""
+				"Good luck!"
+				""
+				"&l&4-Skight&r"
+			]
+			icon: "artifacts:crystal_heart"
+			id: "3C04A0805D29F4CE"
+			shape: "heart"
+			subtitle: "→ CLICK HERE ←"
+			tasks: [{
+				id: "6382C80C9EDE6604"
+				title: "Welcome ♥"
+				type: "checkmark"
+			}]
+			title: "Welcome to TNC"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"While there are still some quests that teach you about how to start with TNC,"
+				""
+				"There will be much more to come! &4❤&r Be patient as this is all done by only one person."
+				""
+				"Feel encourged to give your feedback on the official Discord server, or even help grow TNC by pushing changes through Github."
+			]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "41A5A8CCEBCC4E8D"
+			subtitle: "Quests Are Currently Under Development!"
+			tasks: [{
+				id: "3A56E76B9A559477"
+				title: "Quests Under Development"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"Setting pre-configured keybinds to the vast amount of keys in TNC is quiet hard... Each player has their own preference..."
+				""
+				"You can set and costomize each and every key up to your own unique liking!"
+				""
+				"To change keybinds, go to your \"&6Options&r\" menu, then \"&6Controls&r\", then \"&6Key Binds&r\"."
+			]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "supplementaries:key"
+			id: "116066E8C526269E"
+			subtitle: "Customize Your Gameplay"
+			tasks: [{
+				id: "619389FF8C8EC0DA"
+				title: "Keybinds"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["70195F81D4A8A19A"]
+			dependency_requirement: "one_started"
+			description: [
+				"You can travel and move with style."
+				""
+				"There are new movements that cost stamina and have cooldowns. You can:"
+				""
+				"- Cat Leap"
+				"- Cling To Cliff"
+				"- Crawl"
+				"- Dodge"
+				"- Dive"
+				"- Fast Run"
+				"- Flipping"
+				"- Hang Down"
+				"- Horizontal Wall Run"
+				"- Pole Climbing"
+				"- Quick Turn"
+				"- Roll"
+				"- Sliding"
+				"- Safety Tap"
+				"- Skydiving"
+				"- Vault"
+				"- Vertical Wall Run"
+				"- Wall Jump"
+				"- Wall Slide"
+				""
+				""
+				"Configure your keybinds as you wish!"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:leather_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "12CDB141E0D0EB09"
+			rewards: [{
+				id: "199C681BE6A531F9"
+				item: "parcool:parcool_guide"
+				type: "item"
+			}]
+			subtitle: "Ever wanted to move fast?"
+			tasks: [{
+				id: "4D4401A09BC37327"
+				title: "Parkour!"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: ["Your &eDiet&r is not something to neglect! The more unique foods you eat, the more your Max health increases PERMANENTLY!"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "minecraft:apple"
+			id: "70195F81D4A8A19A"
+			subtitle: "Fill your needs..."
+			tasks: [{
+				id: "707A14BA5858CD7A"
+				type: "checkmark"
+			}]
+			title: "Fill your Needs"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6578E5077119DC13"]
+			dependency_requirement: "one_started"
+			description: [
+				"While looking at a smaller entity (Chest, animal,...etc) Pressing '&2Right-Click&r' while sneaking will allow you to carry it."
+				""
+				"Be careful, you might find it harder to move around or accessing your inventory."
+			]
+			hide: true
+			hide_dependency_lines: false
+			icon: "minecraft:piston"
+			id: "17091BA71CF77670"
+			subtitle: "Use those strong arms!"
+			tasks: [{
+				id: "39BE649553FE5ADE"
+				title: "Carry Entities"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"534451268DBFDF07"
+				"46A9C40248DB6A18"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"During your gameplay, you'll notice that when pressing the key ' &2`&r ' you can mine the needed block, and every similar block of the same type that is connected!"
+				""
+				"You can also Hold '&2Shift&r' + ' &2`&r ' and Scroll with the '&2Mouse Wheel&r' or '&2UP/DOWN Arrow Keys&r' to control the shape of mining."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6CBF392B90562A52"
+			subtitle: "Mine away!"
+			tasks: [{
+				id: "3B58CDEFF0F96363"
+				title: "Vein Breaking"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"No matter how many times you die... You seem to have the special power to ALWAYS spawn back!"
+				""
+				"But, losing your items is always painful..."
+				""
+				"You won't have to worry about that! You can dig back your own tombstone, and restore all your lost items."
+				""
+				"Press the key '&2G&r' to apply upgrades or customize your tombstone."
+				""
+				"Also, if you're playing with your friend's, they have 60 seconds to revive and save you just in time!"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "tombstone:decorative_grave_simple"
+				tag: {
+					model_texture: 1
+				}
+			}
+			id: "534451268DBFDF07"
+			rewards: [{
+				id: "0C69052DC312FC61"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			subtitle: "Again and Again and Again and Again..."
+			tasks: [{
+				id: "1FBF6FF78E56E19A"
+				type: "checkmark"
+			}]
+			title: "You're not really dead."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71C4CA1C850AFAEB"]
+			dependency_requirement: "one_started"
+			description: [
+				"Ever wanted to travel but was worried your crops wont grow at home?"
+				""
+				"This shouldn't worry you anymore after crafting a '&eChunk Loader&r'. This item will keep your chunks active while you are away from your base..."
+			]
+			hide: true
+			icon: "chunkloaders:advanced_chunk_loader"
+			id: "59A64F9BDA4DE9D6"
+			subtitle: "Leave Your Base With Confidence!"
+			tasks: [{
+				id: "2501EFE8C3FF1E20"
+				title: "Chunk Loaders"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2ABFDEE6E7FDC897"]
+			dependency_requirement: "one_started"
+			description: [
+				"Sometimes when it's dark outside, you just need something really big... something to stick it deep... deep in the ground."
+				""
+				"And that would be the '&eMagnum Torch&r'! Right? The '&eMagnum Torch&r' stops the very bad naughty mobs from spawning around it. So, remember to make one to keep your base safe!"
+			]
+			hide: true
+			icon: "magnumtorch:emerald_magnum_torch"
+			id: "71C4CA1C850AFAEB"
+			subtitle: "XXL Protection keeping you safe ;)"
+			tasks: [{
+				id: "33A6CB688DA04137"
+				title: "XXL Protection"
+				type: "checkmark"
+			}]
+			title: "Magnum Torch"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["36A272CB3F6E28EA"]
+			dependency_requirement: "one_started"
+			description: [
+				"Ever wish you could catch some shut-eye on the go?"
+				""
+				"Craft yourself a comfy '&eSleeping Bag&r' or a '&eHammock&r'."
+				""
+				"These comfy things work just like beds, letting you skip the night and greet the dawn. But here's the twist: they don't change your spawn point, so your home base stays safe and sound. Plus, choose from 16 vibrant colors to match your style!"
+			]
+			hide: true
+			icon: "comforts:sleeping_bag_white"
+			id: "2ABFDEE6E7FDC897"
+			subtitle: "Rest Easy, Wherever You Roam"
+			tasks: [{
+				id: "39E6EDC0C1D5F230"
+				type: "checkmark"
+			}]
+			title: "Comfort"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["71C4CA1C850AFAEB"]
+			dependency_requirement: "one_started"
+			description: [
+				"Compose breathtaking shots with the '&eCamera&r'. Load your '&eFilm Roll&r', peek through the Viewfinder, and click the Shutter."
+				""
+				"You can sneak while using the Camera to adjust Focal Length, Shutter Speed, and Flash modes. Guides help frame your masterpiece."
+				""
+				"While sneaking, access the Attachment window:"
+				""
+				"1. Load new Film"
+				"2. Equip the Flash (Redstone Lamp)"
+				"3. Swap Lenses (Spyglass)"
+				"4. Add Filters (Glass Panes)"
+				""
+				"&6Capture light&r: Expose Film (black and white or color) to light. Each roll holds 16 frames."
+				""
+				"&6Develop memories&r: Prepare film for printing with a Developing process."
+				""
+				"&6Print your story&r: Use the '&eLightroom Block&r' to print photos. Preview Negatives to choose the best exposure."
+				""
+				"&6Black and white&r: Requires Paper and Black Dye."
+				""
+				"&6Color&r: Add &bCyan&r, &dMagenta&r, &eYellow&r dyes to black and white prints."
+				""
+				"&6Share your world&r: Hang your Photograph, share it, or sell it! The possibilities are endless."
+			]
+			icon: "exposure:camera"
+			id: "5EB1AF0FDAECFC54"
+			subtitle: "Capture Moments, Tell Stories"
+			tasks: [{
+				id: "53821811A7C725BD"
+				title: "Photography"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5EB1AF0FDAECFC54"]
+			dependency_requirement: "one_started"
+			description: [
+				"The world of Minecraft brims with potential for expression, and now, a new door to creativity opens!"
+				""
+				"Place an '&eEasel&r', '&aright-click&r', and a vibrant canvas awaits. Choose colors with codes or sliders, then blend them like a pro. A smooth brush glides across, leaving precise marks. Zoom in, refine details, and frame your masterpiece in wood (or gold to display its name!). "
+				""
+				"Work with friends - every brushstroke instantly updates for everyone, creating a collaborative joy. Want bigger? Combine smaller paintings into epic wall art spanning four blocks! Save your creation, name it, even export it to share your artistic genius! "
+				""
+				"You can also store favorite colors, switch palettes, experiment endlessly - the possibilities are yours to explore. "
+				""
+				"So grab your virtual brush, unleash your creativity, and paint your own story on the canvas!"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "zetter:palette"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3D95DC86CD10B0DE"
+			subtitle: "Express Yourself in Paint"
+			tasks: [{
+				id: "208F034A4DEBC878"
+				title: "Painting"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"The world has always held mysteries beneath the moonlit sky, but now, whispers speak of celestial forces shaping the night."
+				""
+				"&6Bad Omen Moon&r: A chilling tension fills the air. The Bad Omen Moon fills the air with tension, granting you the ominous Bad Omen effect throughout the night."
+				""
+				"&6Big Moon&r: Gaze upon the night sky to witness the moon's astonishing expansion. But beware, for the Big Moon brings alterations to gravity, testing your adaptability in a world with reduced gravity."
+				""
+				"&6Blood Moon&r: When the Blood Moon rises, prepare for fierce battles. Mobs that emerge during this lunar event have an extra edge, making them formidable adversaries for even the most seasoned adventurers."
+				""
+				"&6Crimson Moon&r: Experience an unprecedented overlap of dimensions as Nether mobs traverse the overworld during the Crimson Moon. The boundaries between realms blur, adding an exciting layer of unpredictability to the night."
+				""
+				"&6Hero Moon&r: Bask in the glory of the Hero Moon, where valor is rewarded. Throughout the night, you'll be bestowed with the prestigious Hero of the Village effect, enhancing your interactions with grateful villagers."
+				""
+				"&6Miner Moon&r: Unleash your inner miner during the Miner Moon. The gift of Haste accompanies this event, allowing you to excavate resources with unmatched speed and efficiency."
+				""
+				"&6Tiny Moon&r: Feel the gravitational pull intensify during the Tiny Moon. Navigate a world where gravity holds a stronger grip, challenging you to adapt and navigate the terrain like never before."
+				""
+				"&6White Moon&r: Embrace serenity beneath the White Moon. Venture out with confidence as the tranquil aura of the night encourages exploration and discovery."
+				""
+				"&6Eclipse Moon&r: Behold the rare Eclipse Moon event, shrouding the world in darkness. Embrace the darkness effect that challenges your senses and strategy, offering a unique and immersive twist to the lunar cycle."
+				""
+				"Remember, the moon's whims shift with each night. Watch the skies, and be ready for whatever wonders (or perils) they bring. May your journey be guided by the light of the stars!"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "luphieclutteredmod:luphie_glowing_moon"
+			id: "46A9C40248DB6A18"
+			subtitle: "A Guide to the Night Sky's Dance"
+			tasks: [{
+				id: "33D1B671E9C1DC68"
+				title: "Celestial Influence"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EB1AF0FDAECFC54"]
+			dependency_requirement: "one_started"
+			description: [
+				"Compose music using intuitive Music Sheets. Create epic anthems, heartfelt ballads, or anything in between!"
+				""
+				"&lUnprecedented flexibility&r:"
+				""
+				"&6Compose with ease&r: Drag notes to customize length, overlap them, and even play multiple notes simultaneously."
+				"&6Expand your range&r: Explore 8 octaves, twice the previous limit, with new instruments like Redstone Guitar and French Horn."
+				"&6Fine-tune your performance&r: Set individual note volume, adjust the overall sheet volume, and choose from granular tempo options."
+				""
+				"&lCollaboration made simple&r:"
+				""
+				"&6Jam with friends&r: Connect MIDI devices and play together in real-time, or record your masterpiece for later enjoyment."
+				"&6Import / export&r: Share your compositions easily. Import MIDI files and export your creations for wider audiences."
+				"&6Seamless world integration&r: Music sheets automatically update and transfer between worlds, preserving your musical legacy."
+				""
+				"&lAdditional features&r:"
+				""
+				"&6Visualize your music&r: Customize measure lines for clarity and use keyboard shortcuts for efficiency."
+				"&6Undo mistakes&r: Easily revert edits with Ctrl+Z."
+				"&6Learn the ropes&r: Access a helpful guide directly within the interface."
+				"&6Resource-friendly&r: Enjoy lag-free music creation, even with complex pieces."
+				""
+				"Start your musical journey today! Create, collaborate, and express yourself through the power of music in Minecraft."
+			]
+			icon: "xercamusic:music_sheet"
+			id: "4D7C73C056B77C84"
+			subtitle: "Unleash Your Inner Maestro"
+			tasks: [{
+				id: "0D24CBE30960F7A9"
+				title: "Music Connects Us"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["12CDB141E0D0EB09"]
+			dependency_requirement: "one_started"
+			description: [
+				"Craft a '&eParaglider&r' using leather and sticks, and soar through the air, experiencing the world from a breathtaking new perspective. Navigate valleys, glide over plains, and enjoy the world like never before."
+				""
+				"A Stamina Wheel governs your paragliding. Manage your stamina wisely, as certain actions can deplete it just like your parkour movements. Remember, even the most skilled gliders need to land eventually!"
+				""
+				"Also, you can personalize your gear with &l&bvibrant&r dyes! Both the '&eParaglider&r' and the '&eDeku Leaf&r' (cosmetic alternative) can be colored to match your unique style."
+				""
+				"Seek out Heart Containers and Stamina Vessels to enhance your overall Health and Stamina. Obtaining these will involve talking to a &opeculiar&r statue of some foreign goddess. Keep an eye on when you visit a village."
+				"There's also a rumor about the other type of statue with a pair of horns, and his suspicious bargains manipulating your life force in exchange for money. They say he can be found rarely in the village, or underground, or even nether."
+				""
+				"This is just a glimpse into the possibilities. So strap on your '&eParaglider&r', embrace the unknown, and forge your own legend in the skies!"
+			]
+			hide: true
+			icon: "paraglider:paraglider"
+			id: "36A272CB3F6E28EA"
+			subtitle: "Soar Through The Skies"
+			tasks: [{
+				id: "26B7CEF200AACA38"
+				title: "Paraglide Away~"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"Ever wonder what lurks in the shadows, stopping you from catching those precious Z's? This guide will shed some light... literally!"
+				""
+				"&6Monster spotlight&r: When you try to sleep but pesky mobs are nearby, they'll be highlighted for a moment, making them easier to spot and deal with."
+				""
+				"&6Sweet dreams, fast forward&r: Sleeping peacefully whisks you away to morning. The more players slumbering, the faster time flies."
+				""
+				"&6World in a hurry&r: Not just sleep gets a boost. Crops sprout faster, grass spreads quicker, and even potions and furnaces zip along when time is warped. Watch your world's time pass as you sleep!"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "minecraft:red_bed"
+			id: "6578E5077119DC13"
+			subtitle: "A Restful Night's Sleep, at Uour Own Pace..."
+			tasks: [{
+				id: "0DB905672DE2685F"
+				type: "checkmark"
+			}]
+			title: "Sweet Dreams"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["36A272CB3F6E28EA"]
+			dependency_requirement: "one_started"
+			description: [
+				"In your inventory, there is a slot where you can place your backpack claimed from this quest."
+				""
+				"By pressing the key '&2B&r', you can access your backpack as well as customize it! each customization requires completing a challenge to unlock it."
+				""
+				"Did you know you can also pickpocket a wandering villager if he's wearing a backpack? Try not to get caught 😯"
+			]
+			hide: true
+			icon: "backpacked:backpack"
+			id: "53B28D81FDF42199"
+			rewards: [{
+				id: "77F160EF2BE985FA"
+				item: "backpacked:backpack"
+				type: "item"
+			}]
+			subtitle: "What's a traveller without with their backpack?"
+			tasks: [{
+				id: "6359466C815F8191"
+				title: "Backpacked"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["17091BA71CF77670"]
+			dependency_requirement: "one_started"
+			description: [
+				"Ever wished for a hassle-free way to trade with villagers? Look no further! Craft yourself a '&eTradign Post&r'. "
+				"This nifty block lets you barter with &lall villagers in a nearby area&r at once, saving you precious time and effort."
+			]
+			hide: true
+			hide_dependency_lines: false
+			icon: "tradingpost:trading_post"
+			id: "6E177E1DE4F19888"
+			subtitle: "Trade in Style"
+			tasks: [{
+				id: "4D52D7EC62C0161E"
+				title: "Trading Made Easy"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E177E1DE4F19888"]
+			dependency_requirement: "one_started"
+			description: [
+				"Forget haggling! The \"&eBartering Station&r\" is a handy block that makes piglin bartering a bliss. Toss in gold, and watch them return with treasures! Want an endless trade? Add hoppers to feed more gold and collect even more loot. "
+				""
+				"It's simple:"
+				""
+				"- Piglins nearby get gold every 15 seconds. Up to 6 at once!"
+				"- Need more piglins? Build more stations!"
+				"- Each trade uses one gold, so spread it out for faster bartering."
+				"- Move piglins closer if they're not trading."
+				"- Station holds all your goodies, but stops working when full."
+				""
+				"So grab your gold, craft this block, and let the piglins do the work! Endless riches await!"
+			]
+			hide: true
+			icon: "barteringstation:bartering_station"
+			id: "6CDC9A76E24BDC59"
+			tasks: [{
+				id: "1A480F5B626F3FE1"
+				title: "Bartering Station"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53B28D81FDF42199"]
+			dependency_requirement: "one_started"
+			description: [
+				"Struggling with limited inventory? Say goodbye! The \"&eTraveler's Backpack&r\" &lexpands&r your carrying capacity with a whopping &l60 slots&r and &l2 fluid tanks&r, capable of storing buckets of liquids or even &l24 potion bottles&r. Manage your gear effortlessly with built-in sorting, stacking, and transfer buttons - all easily accessible through external pipes or a quick keypress."
+				""
+				"&lUpgrade&r your Backpack at the \"&esmithing table&r\" to unlock &leven more&r space for your treasures. Worried about armor slots? This trusty companion equips without needing one. &lCraft&r on the go, rest easy with your sleeping bag, and swap tools seamlessly with dedicated slots. Need portable liquids? Combine the fluid tanks with the Hose item for ultimate convenience."
+				""
+				"Express your unique style with over &l45 themed&r backpacks inspired by creatures and blocks, some offering &lspecial abilities&r!"
+				""
+				"Now you will never worry about leaving anything behind in your adventures."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "travelersbackpack:standard"
+				tag: { }
+			}
+			id: "6738F7F3B2C575A2"
+			subtitle: "Carry more, Explore Farther"
+			tasks: [{
+				id: "1AE1A800059E7008"
+				title: "Traveler's Backpack"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["59A64F9BDA4DE9D6"]
+			dependency_requirement: "one_started"
+			description: [
+				"Uncover hidden depths with the &eHyperbox&r, a magical technological block concealing a unique dimension within. Craft and activate it to be whisked away to a personal pocket world - a 13x13x13 space perfect for compact builds."
+				""
+				"&6Connect and Power&r: Travel seamlessly between worlds through convenient portals within the Hyperbox dimension. These portals even transmit Redstone power and item flows, allowing you to connect complex contraptions across dimensions!"
+				""
+				"&6Compatibility&r: Whether you're a tech whiz or a magic enthusiast, the &eHyperbox&r adapts. It seamlessly integrates with anything that utilize Redstone power or item transfer, expanding your creative possibilities."
+				""
+				"&lCautions and Notes&r:"
+				""
+				"- This pocket dimension resides within a single chunk, offering a cozy yet focused building space."
+				"- The single chunk within the hyperbox dimension will remain loaded while the chunk containing the hyperbox block is loaded."
+				"- Hyperbox worlds will be unloaded and stop ticking if their parent block is removed; the world will be loaded again when the block is placed again."
+				""
+				"Construct hidden bases, design miniature marvels, or simply explore the novelty of a personal pocket dimension. The &eHyperbox&r unlocks unique opportunities for builders and adventurers alike!"
+			]
+			icon: "hyperbox:hyperbox"
+			id: "142BFBD3618F1720"
+			subtitle: "Step into the Hyperbox"
+			tasks: [{
+				id: "0393ED9E798DFD20"
+				title: "HyperBox"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["17091BA71CF77670"]
+			dependency_requirement: "one_started"
+			description: [
+				"Forget tedious leads and boats - &eLassos&r allow you to capture and carry most creatures directly in your inventory!"
+				""
+				"Craft your choice of lassos:"
+				""
+				"&eGolden Lasso&r: Captures land animals for easy relocation."
+				"&eAquatic Lasso&r: Captures underwater creatures and explore aquatic depths."
+				"&eDiamond Lasso&r: Capture any creature, and their escape is history."
+				"&eEmerald Lasso&r: Convince willing villagers to join your adventures (&lcontracts required!&r)."
+				"&eHostile Lasso&r: Subdue aggressive mobs (below 50% health), but beware their bites!"
+				""
+				"Capture, rename, and enchant:"
+				""
+				"- Quickly lasso mobs for transport or collection."
+				"- Rename your captured companion using the lasso on an anvil."
+				"- Extend capture duration with the \"&5Holding&r\" enchantment."
+				""
+				"Embrace the possibilities! Build sprawling animal farms without endless wrangling, build a personal village, or create your own zoo."
+			]
+			hide: true
+			icon: "moblassos:golden_lasso"
+			id: "19C3FDA2F2544EA2"
+			subtitle: "Capter 'em All"
+			tasks: [{
+				id: "763927CE2C05E191"
+				title: "Lassos"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+	]
+	subtitle: ["Everything you need to know!"]
+	title: "Gameplay"
+}

@@ -1,0 +1,181 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "multiplayer"
+	group: "3A38A9217806CA03"
+	id: "6E5AF89CA51C0B13"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"Voice Chat support!"
+				""
+				"Press the key '&2V&r' to customize your Voice Chat settings."
+				""
+				"Press the key '&2Caps Lock&r' to Push to Talk."
+				""
+				""
+				"&4BE CAREFUL&r! Players aren't the only entities that can hear you..."
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "minecraft:echo_shard"
+			id: "30ACA40FB20C54FE"
+			subtitle: "Voice Chat With Your Friends!"
+			tasks: [{
+				id: "67BB2EBDE9CB4F75"
+				title: "Voice Chat"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"Unearth riches beyond ores! This land holds a new kind of treasure: Coins! Coins are the main currency of TNC Multiplayer Server, each holding value and potential."
+				""
+				"&n&6Every 20 minutes, your allowance will be given to you by this quest.&r"
+				""
+				"Barter and build! Spruce up your digs with decorative coin banners, use them in trades, or spark up exciting roleplays."
+				""
+				"Need more space? Craft coin piles to stack your wealth! Each pile holds 9 coins, perfect for carrying fortunes. Got a hefty pile? Smelt it down for a single coin of the next tier, fueling your climb to diamond (and beyond!)."
+				""
+				""
+				"May your pockets jingle with prosperity!"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "coinsje:gold_coin_pile"
+			id: "33588EDA4ADABC8A"
+			rewards: [{
+				count: 9
+				id: "334D7532EDC7E33A"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Time to Get Rich!"
+			tasks: [{
+				elapsedTime: 1200L
+				id: "1D84C6BD35C33D0A"
+				title: "Collect Allowance Timer"
+				type: "questsadditions:time"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"Pressing '&eMiddle Mouse Click&r (M3)' Pings what you are looking at. This could be entities, blocks, or items."
+				""
+				"All players in the same Pinging Channel can see it! You could always change your channel from the Ping Settings by pressing the apostrophe key '&2 ' &r'."
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "minecraft:ender_eye"
+			id: "7E3EE84EE16AB2D5"
+			subtitle: "Did You Know You Can Ping?"
+			tasks: [{
+				id: "42CA51C80D929661"
+				title: "*Ding*"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33588EDA4ADABC8A"]
+			dependency_requirement: "one_started"
+			description: [
+				"Did you know that in TNC you can open your own Shop/Trading station?"
+				""
+				"Using a '&ePlayer Shop&r' item you are able to create your very own custom shop to sell/trade items with other players! This shop is yours and no one but you can get the profits or break it. "
+				"Any player besides you that clicks on the shop with the payment item will get the selling item from the shop and will add the payment item to the shop for collection."
+				""
+				"1. Make a '&ePlayer Shop&r' block and place it down."
+				""
+				"2. '&2Right-Click&r' the shop with the item you want to sell."
+				""
+				"3. Then, '&2Right-Click&r' again with the item you want as payment."
+				""
+				"4. The top slot in the shop holds your sellables (max 10x the normal stack size!)."
+				""
+				"5. The bottom slot holds your profits until you claim them. Don't forget to collect!"
+				""
+				"6. You can always &2'Shift&r' punch the shop to remove it."
+				""
+				"7. Want your team to help out? '&2Shift&r + &2Right-Click&r' the shop to toggle team edit access."
+			]
+			hide: true
+			icon: "minecraft:golden_carrot"
+			id: "63FD51FB46A1D092"
+			subtitle: "Trading Made Easy."
+			tasks: [{
+				id: "53361DD29E603FE2"
+				title: "Trade With Others"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"Ever dreamt of sharing a personal teleport link with trusted friends? &eTelePasses&r delivers a unique solution to achieve just that."
+				""
+				"This special item, bearing your name, holds the key to teleportation. But it's not yours to keep. Share it, drop it, or lose it... up to you how it ends up with someone else. Its journey begins the moment it leaves your hands."
+				""
+				"The person (Other than you) who acquires your TelePass holds the power to teleport directly to you. However, If you're offline or in another world, the TelePass remains inactive."
+			]
+			hide: true
+			icon: "telepass:gold_telepass"
+			id: "0372916D52518C44"
+			rewards: [{
+				id: "2608ECBC31980558"
+				item: "telepass:gold_telepass"
+				type: "item"
+			}]
+			subtitle: "Forge Bonds"
+			tasks: [{
+				id: "280B1877D848E9D2"
+				title: "TelePasses"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63FD51FB46A1D092"]
+			dependency_requirement: "one_started"
+			description: [
+				"Using &6Mighty Mail&r you got yourself a functioning mailing system! Craft a &eMailbox&r, and a &ePost Box&r to recieve and send mail. Other than being wonderful decorative blocks, these can proide great functionality! "
+				""
+				"The &ePost Box&r allows you to send mail to other players on the server. You can include items, and an optional message then send your mail to ANY Mailbox placed in the world. This also works across ALL dimensions! How magical..."
+				""
+				"Now, when you recieve mail, your &eMailbox&r will appear with a little red flag to indicate so, and grab your attention."
+				""
+				"Instead of having to travel to your friend's base, you can now send eachother items and letters! How convenient."
+			]
+			hide: true
+			icon: "mighty_mail:oak_mail_box"
+			id: "4B5988FB00B1E410"
+			subtitle: "Right to Your Mailbox"
+			tasks: [{
+				id: "4C7AFFFE92620D64"
+				title: "You've got mail!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Multiplayer"
+}

@@ -1,0 +1,244 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "travel"
+	group: "3A38A9217806CA03"
+	id: "2CC7607B449FBB7B"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"After exploring the vast overworld, you might consider visiting other dimensions... And while some can be pleseant, one of them is very &4deadly&r. "
+				""
+				"Said dimension is where the Ender Dragon rules. She is not to be messed with."
+				""
+				"\"&oTo reach The End you will have to search for '&6The Eyes&r'. &oSixteen whispers echo across the realms, each leading to an Eye that unlocks the path further. Heed these fragments, they guide you to hidden corners and forgotten lore.&r\""
+				""
+				"1. &6Sands' Secret&r: Beneath the burning sun, a slumbering giant guards an ancient prize. Unearth its secrets."
+				""
+				"2. &6Nether's Echo&r: Where demons duel, embers reveal a lost relic. Seek the clash, claim the fiery eye."
+				""
+				"3. &6Frozen Fragment&r: The north whispers of the Iceologers' lost legacy. Unearth their secrets, find the chilling eye."
+				""
+				"4. &6Jungle's Whisper&r: Emerald embrace hides Redstone knowledge. Unravel the temple's mysteries, claim the knowing eye."
+				""
+				"5. &6Ocean's Depth&r: Silent guardians protect the deep's secrets. Break their vigil, claim the eye that saw countless wrecks."
+				""
+				"6. &6Evoker's Demise&r: Twisted magic fuels their might, but one eye holds their power. Break their will, claim the guarded prize."
+				""
+				"7. &6Mineshaft Memory&r: Where the first tools were forged, an eye waits. Delve into forgotten depths, unearth the whispering past."
+				""
+				"8. &6Pillager's Greed&r: Outposts echo with fallen kings' treasures. Seek their forgotten riches, claim the corrupted eye."
+				""
+				"For the remaining, knowledge is your key. Seek wisdom from traders, delve into forgotten crafts, and face fearsome foes. Each eye holds a unique challenge, adventurer. Unravel their secrets, and the path to the End unfolds."
+			]
+			hide: true
+			hide_dependency_lines: false
+			icon: "minecraft:end_portal_frame"
+			id: "3D2EF503B224E824"
+			shape: "rsquare"
+			subtitle: "We All Reach The End Eventually"
+			tasks: [{
+				id: "43A0199A87D8D43D"
+				title: "Other Dimensions?"
+				type: "checkmark"
+			}]
+			title: "Worse than Hell"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"Discover new blocks like sculk stone, gloomslate, and sculk grime. Wield warden tools, crafted from fearsome foes. Control the spread of darkness with the sculk transmitter, and unearth treasures from fallen monsters."
+				""
+				"Also, you can craft \"&ewarden armor&r\", forged from the heart of the Deep Dark. Its power awaits."
+				""
+				"&6Beyond the veil&r: Traverse a new dimension - &lthe Otherside&r -"
+				""
+				"Step into the shadows and explore the hidden mysteries Deeper and Darker unveils. Will you conquer the darkness, or succumb to its grip?"
+			]
+			hide: true
+			icon: "deeperdarker:echo_sapling"
+			id: "1873CCF0E2DF7D6A"
+			shape: "rsquare"
+			subtitle: "Delve Deeper into The Darkness!"
+			tasks: [{
+				id: "1FC7A02DFD71AE4E"
+				title: "Deeper and Darker"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"Forget the old ways of wandering! Craft a \"&6Nature's Compass&r\" and seek out any biome in the vast world. "
+				""
+				"'&2Right-Click&r' to open a map brimming with possibilities. Search for specific landscapes, and chart your course. "
+				""
+				"'&2Shift&r + &2Right-Click&r' will reset the compass's state."
+				""
+				"When the compass is not pointing at a biome, it will point at the world spawn."
+				""
+				"So pack your bags, and explore the endless biomes awaiting your discovery!"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "naturescompass:naturescompass"
+				tag: { }
+			}
+			id: "3E310FFF5190FF48"
+			subtitle: "Explore Endless Biomes"
+			tasks: [{
+				id: "61615A40C7DC6ADB"
+				title: "Find what you need"
+				type: "checkmark"
+			}]
+			title: "Find a Biome"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"Deep below, a shadowy realm awaits. Plunge into &lThe Undergarden&r, a vast dimension teeming with vibrant biomes, strange creatures, and hidden wonders."
+				""
+				"Forge your path through &lunique biomes&r, each with its own distinct landscape and challenges. Unearth valuable ores that grant your tools and weapons special properties. Many &lunique entities&r call the Undergarden home, some friendly, some fierce. Beware the invasive &lRotspawn&r, harbingers of chaos from a mysterious realm."
+				""
+				"Follow &ladvancements&r on your journey, guiding you towards discoveries and powerful rewards. Immerse yourself in the atmosphere..."
+				""
+				"You can build, survive, and thrive in this new world. Discover unique potion effects to enhance your abilities. Explore the enigmatic structure and its secrets."
+				""
+				"This is just the beginning. &lThe Undergarden&r holds many more secrets waiting to be unveiled."
+				""
+				"Unlock the portal:"
+				""
+				"1. Craft a Catalyst using the special recipe."
+				"2. Build a Nether portal-shaped frame with Stone or Deepslate Bricks."
+				"3. '&2Right-Click&r' the bottom center of the frame with the Catalyst to activate."
+				""
+				"Alternatively: Use Undergarden bricks to construct the portal."
+				""
+				"This is just a glimpse into the vastness of &lthe Undergarden&r... So, gear up, embrace the unknown, and forge your own legend in the depths!"
+			]
+			hide: true
+			icon: "undergarden:deepturf_block"
+			id: "2BB1C2A759F580CB"
+			shape: "rsquare"
+			subtitle: "Dive into The Depths: Unravel The Undergarden's Secrets!"
+			tasks: [{
+				id: "10F88D4862F6E185"
+				title: "The Undergarden"
+				type: "checkmark"
+			}]
+			title: "The Undergarden"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"Ascend to the Aether, a dimension high above, filled with floating islands and hidden dangers. Gear up and face its unique challenges!"
+				""
+				""
+				"&6Skybound survival&r: Uncover new ores, battle mythical mobs, and conquer perilous dungeons with powerful loot. But beware - a fall sends you hurtling back to the Overworld!"
+				""
+				"&6Treasures and trinkets&r: Craft tools and weapons from Skyroot, Holystone, Zanite, and Gravitite, each granting special abilities. Discover the \"&eBook of Lore&r\" for secrets and equip enchanted accessories from dungeon spoils."
+				""
+				"&6Friendly flyers&r: Tame Moas, multi-tiered flying mounts, to soar across the clouds."
+				""
+				"&6Dungeon challenges&r: Brave three epic dungeons – Bronze, Silver, and Gold – each with powerful bosses guarding legendary equipment."
+				""
+				"&6Daybreak awaits&r: The Aether is bathed in eternal sunlight. Only by conquering the final dungeon can you unlock the Sun Altar and control day and night."
+				""
+				"&l&6Start your journey&r: Build a portal of Glowstone and activate it with a water bucket. Step through and begin your ethereal adventure!"
+				""
+				"This is just the beginning... Each dungeon holds a fearsome guardian. The Slider lurks in the Bronze Dungeon, the Valkyrie Queen awaits in her Silver Temple, and the Sun Spirit, a fiery deity, reigns over the Gold Dungeon. Prepare yourself for epic battles and legendary rewards!"
+			]
+			hide: true
+			icon: "aether:skyroot_water_bucket"
+			id: "2013011485CF6F85"
+			shape: "rsquare"
+			subtitle: "Soar to an Ethereal Paradise: Explore the Aether!"
+			tasks: [{
+				id: "36575B873135F1DE"
+				title: "The Aether"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"Honey-soaked adventure awaits! Journey to the Bumblezone, a dimension buzzing with bee-themed wonders. Discover towering combs, pollen-covered landscapes, and unique structures to explore. Craft bee armor, encounter the mighty Bee Queen, and navigate canals teeming with life."
+				""
+				"Beware the wrath... Bees fiercely guard their honey! Taking it risks the Wrath of the Hive, making them aggressive. Appease them with honey offerings to earn their protection instead."
+				""
+				"Enter by tossing an \"&eEnderpearl&r\" at a beehive. Escape by digging deep or reaching new heights. Ride mobs or vehicles across dimensions!"
+			]
+			hide: true
+			icon: "minecraft:honeycomb"
+			id: "751447B16CB5F663"
+			shape: "rsquare"
+			subtitle: "Into the Beehive"
+			tasks: [{
+				id: "6B58343C35F118F2"
+				title: "The Bumblezone"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"Two realms await... Dive into &lEverbright&r, a land of eternal day and icy beauty, or venture into &lEverdawn&r, where warmth and humidity reign supreme. Each holds secrets to uncover and dangers to face."
+				""
+				"&6Seek the Gatekeeper&r: Find his house in plains, mountains, or snowy biomes. Trade with him for the \"&eBlue Journal&r\", a guide to these dimensions, and the Zeal Lighter to activate portals."
+				""
+				"Two await in each dimension, each with a formidable boss:"
+				""
+				"&6&lEverbright&r:"
+				"- Face the lightning-wielding Summoner and his golem guards."
+				"- Conquer the labyrinthine dungeon and defeat the powerful Starlit Crusher, vulnerable to axes and susceptible to spear stuns."
+				""
+				"&6&lEverdawn&r:"
+				"- Battle the potion-throwing Alchemist, reading his visual cues to avoid harm."
+				"- Descend into the spider-infested depths and challenge the venomous Arachnarch, who lunges and sprays poison."
+				""
+				"Bosses adjust difficulty based on players, making them perfect for solo or group adventures. Defeating them grants access to higher difficulty rematches with potentially better loot."
+				""
+				"As you progress, trade with the Gatekeeper for new items and uncover more pages in the Blue Journal."
+				""
+				""
+				"Craft your gear, gather supplies, and step into the unknown. Will you conquer the icy peaks of Everbright or brave the humid depths of Everdawn? The choice is yours!"
+			]
+			hide: true
+			icon: "blue_skies:blue_journal"
+			id: "008BB3C3E5703456"
+			shape: "rsquare"
+			subtitle: "Unveiling the Wonders of Blue Skies!"
+			tasks: [{
+				id: "6D150A01807068E2"
+				title: "Blue Skies"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+	]
+	title: "Travel"
+}

@@ -1,0 +1,567 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "technology"
+	group: "3A38A9217806CA03"
+	id: "345486051C9BCF53"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"One of the most (if not the most) extensive Tech ways is &6Create&r."
+				""
+				"Create allows you to build, decorate, farm, and make powerful automation! "
+				"Whatever you need to understand, you can hold the key '&2W&r' to Ponder it."
+				""
+				"The only ever limit you'll encouter is YOUR imagination."
+			]
+			hide: true
+			icon: "create:flywheel"
+			id: "7E9243322CE98F02"
+			rewards: [{
+				count: 6
+				id: "3C5AEA8843010502"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "You Can Create ANYTHING!"
+			tasks: [{
+				id: "3DE42941DF1E7E1B"
+				title: "Create"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E9243322CE98F02"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&lCraft and Additions&r:"
+				""
+				"&6Forge Energy to Motion&r: Convert Forge Energy into kinetic power with the Electric Motor, unlocking automation possibilities."
+				"&6Motion to Energy&r: Generate Forge Energy from your contraptions using the Alternator, maximizing resource efficiency."
+				"&6Shape and Connect&r: Craft essential components like &eWires&r, &eRods&r, and &eSpools&r using the &eRolling Mill&r."
+				"&6Manage and Store&r: Control energy flow with &eRedstone Relays&r, store excess power in &eAccumulators&r, and transfer it on-the-go with the &ePortable Energy Interface&r."
+				"&6Unleash Tesla's Power&r: Charge electric items and even defend your creations with the electrifying &eTesla Coil&r."
+				"&6Beyond Electricity&r: Discover unique creations like &eBarbed Wire&r blocks, &eDiamond Grit Sandpaper&r, and &eBiomass fuels&r, expanding your crafting repertoire."
+				""
+				"&lCreate: New Age&r:"
+				""
+				"&6Harness the Lightning&r: Generate electricity using large, mesmerizing &espinning copper coils&r powered by &emagnets&r."
+				"&6Motors in Motion&r: Utilize diverse &eMotors&r to convert electricity into rotational power, driving your contraptions."
+				"&6Energize Your Creations&r: Craft unique items with the &eEnergiser&r, combining rotation and electricity for innovative possibilities."
+				"&6Nuclear Powerhouse&r: Build massive &emulti-block nuclear reactors&r, generating immense heat to fuel your steam engines."
+				"&6Harness the Sun&r: Convert sunlight into heat with &eSolar Panels&r, powering your creations with renewable energy."
+				"&6Thermal Network&r: Create a sophisticated &eheat transfer system&r, utilizing heat from solar panels and reactors across your world."
+				""
+				""
+				"Explore the endless possibilities! Combine the power of both to create complex, automated systems, harness diverse energy sources, and build truly remarkable contraptions!"
+			]
+			hide: true
+			icon: "create_new_age:copper_wire"
+			id: "746729E9B05E8995"
+			subtitle: "Harness the Power of Electricity"
+			tasks: [{
+				id: "056274C786810A68"
+				title: "Create Electricity"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7E9243322CE98F02"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Discover infinite ore deposits hidden throughout your world. Utilize advanced machines to harvest these riches, powered by rotational force."
+				""
+				"1. Find veins and fluid reservoirs with the handy \"&eOre Vein Finder&r\". Each chunk holds &l&nonly one&r vein, ensuring endless resource potential."
+				""
+				"2. Deploy the &eDrilling Machine&r for efficient ore extraction. Capture valuable fluids with the &eFluid Extractor&r, streamlining your resource gathering."
+				""
+				"With infinite resources at your fingertips, you can fuel your ambitions!"
+			]
+			hide: true
+			icon: "createoreexcavation:drilling_machine"
+			id: "215388741D2C34C0"
+			subtitle: "Veins of Bounty Await!"
+			tasks: [{
+				id: "0CB2665569C55D24"
+				title: "Create Excavation"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7E9243322CE98F02"
+				"70195F81D4A8A19A"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Craft delectable dishes with ease! The &eSlicer&r automates chopping tasks, mimicking a cutting board. Place &eknives&r or &eaxes&r within and watch ingredients perfectly prepare themselves. Enjoy &6Farmer's Delight&r recipes and more!"
+				""
+				"Skip the pot! Transform Farmer's Delight recipes requiring the cooking pot into quick mixing processes, saving time and effort."
+				""
+				"The &eSprinkler&r empowers your farm! Distribute fluids effortlessly across a targeted area. Apply &clava&r for controlled burning, &bwater&r to simulate rain, &epotions&r for temporary effects, or even the new &eLiquid Fertilizer&r for bonemeal-like growth."
+			]
+			hide: true
+			icon: "sliceanddice:slicer"
+			id: "2B449DBFBB3FFE70"
+			subtitle: "Slice, Dice, and Grow"
+			tasks: [{
+				id: "6877B37D030EC1F8"
+				title: "Create Food"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E9243322CE98F02"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Forge devastating siege weapons using Create Big Cannons. Assemble multiblock cannons from diverse materials, each offering unique tactical advantages. Craft specialized autocannons for rapid fire and aerial defense, or opt for brute force with heavy-duty artillery."
+				""
+				""
+				"&6Choose your payload&r: Unleash a menagerie of destructive projectiles, catering to various strategies. Rain fire with cannonballs, shatter defenses with piercing rounds, or sow chaos with timed explosives."
+				""
+				"&6Kinetic control&r: Load and aim your cannons with precision using kinetic-powered mechanisms. Fine-tune your targeting and unleash calculated destruction."
+				""
+				"&6Fuse with ferocity&r: Employ diverse fuze types to detonate your projectiles with devastating effect. Trigger upon impact, proximity, or a timed delay - the choice is yours."
+				""
+				"&6Craft and conquer&r: Master the art of constructing these imposing weapons through Create's intuitive kinetic system and a dedicated multiblock casting system."
+				""
+				""
+				"Whether seeking an edge in competitive PvP or adding explosive thrills to your world, Create Big Cannons delivers unparalleled offensive power."
+				"Rain down &ldestruction&r."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "createbigcannons:ap_autocannon_round"
+				tag: { }
+			}
+			id: "2BAC6101B7AE95E4"
+			subtitle: "Thunderous Firepower!"
+			tasks: [{
+				id: "1B10AE3EDEBD49D9"
+				title: "Create Cannons"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E9243322CE98F02"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Expand your railways! Choo choo~"
+				""
+				"&lCreate: Steam and Rails&r:"
+				""
+				"&6Diverse Tracks&r: Design stunning rail networks with new track types! Spruce, gold, nether wood, even monorails - enhance your builds with aesthetic and functional options."
+				"&6Grade Crossing Elegance&r: Seamlessly integrate tracks with slopes and turns using slab-crafted crossings."
+				"&6Semaphore Signals&r: Replace basic nixie tubes with visually captivating semaphores for clear communication at junctions."
+				"&6Adorable Conductors&r: Craft remote-controlled conductors to operate and manage your trains with ease."
+				"&6Mobile Crafting and Music&r: Enjoy convenience with a workbench cart and lively tunes with the jukebox cart."
+				"&6Dynamic Couplings&r: Easily connect and disconnect trains using powered coupling blocks."
+				"&6Summon the Ride&r: Blow the conductor's whistle to call forth your locomotive companion."
+				"&6Decorative Smokestacks&r: Replace campfires with stylish smokestacks for an enhanced visual touch."
+				""
+				"&lCreate: Bells and Whistles&r:"
+				""
+				"&6Train in Style&r: Build a majestic train with 18 Deepslate train pilot variations and matching brass steps."
+				"&6Clear the Way&r: Push entities aside with powerful train pilots crafted from various materials."
+				"&6Ornate Windows&r: Design elegant windows with the unique iron trapdoor."
+				"&6Illuminated Paths&r: Mount headlights on any block face to brighten your rail journeys."
+				"&6Platform Perfection&r: Create realistic train and subway platforms with dedicated platform blocks."
+				"&6Metro Style&r: Build sleek subways using the versatile metro palette of blocks."
+				"&6Secure the Ride&r: Utilize grab bars made from andesite, brass, or copper for easy access to your trains."
+				"&6Step Up&r: Climb aboard comfortably with andesite, brass, or copper bogie step blocks."
+				"&6Universal Access&r: Place andesite, brass, or copper door step blocks on any surface for convenient entry and exit."
+				""
+				""
+				"Create intricate rail networks, command trains with adorable conductors, and personalize your contraptions with decorative elements. These mods elevate your railway experience in Minecraft, offering both functionality and style. Embark on exciting adventures and design a world built around the thrill of the rails!"
+			]
+			hide: true
+			icon: "railways:semaphore"
+			id: "7D9E714ADEC5D18D"
+			subtitle: "Steam and Rails, Bells and Whistles!"
+			tasks: [{
+				id: "086B69427D6817A2"
+				title: "Create Trains"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E9243322CE98F02"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Soar through the skies and explore hidden depths with this ingenious invention. Powered by pressurized air, this upgraded &eCopper Backtank&r transforms into a &ejetpack&r, granting you the gift of flight."
+				""
+				"&6Hover and glide&r: Activate hover mode to seamlessly transition from aerial exploration to precise landings. Feel the rush of underwater acceleration as you zip through the currents, and resist downward drift with a simple toggle."
+				""
+				"&6Enhanced capabilities&r: Wear the &ejetpack&r like a chestplate, just as you would the &eBacktank&r. Refuel it with rotational force for sustained flight, and use it to power tools like the &eExtendogrip&r. Also, it can be enchanted with &5Capacity&r to further expand its potential."
+				""
+				"&6Underwater boost&r: Swim with ease! Activate the jetpack underwater for an Elytra-like boost, propelling you forward with each press of the &2jump&r key."
+				""
+				"Whether skimming mountaintops or diving into aquatic adventures, the Create &eJetpack&r redefines freedom of movement. Take to the skies and explore like never before!"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "create_jetpack:jetpack"
+				tag: {
+					Air: 900.0f
+				}
+			}
+			id: "67F803443ADC7B30"
+			subtitle: "Take flight with the Create Jetpack!"
+			tasks: [{
+				id: "781493E6BF297F12"
+				title: "Create Jetpacks"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E9243322CE98F02"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Master experience with Create Enchantment Industry!"
+				""
+				""
+				"&6Embrace liquid experience&r: Store and transport enchanting power with ease! Convert experience points into high-density liquid form for efficient management. Also, the &eExperience Rotor&r bridges the gap between mods, allowing you to convert other mods' &eliquid experience&r into yours."
+				""
+				"&6Disenchant and reclaim&r: No longer fear unwanted enchantments! Disenchant items to recover their liquid essence, breathing new life into your gear."
+				""
+				"&6Automate enchanting&r: Unleash the &eBlaze Enchanter&r, your gateway to automated enchanting! Craft powerful items without breaking a sweat."
+				""
+				"&6Copy with precision&r: Duplicate written books, &eenchanted books&r, &ename tags&r, and even train &eschedules&r with the versatile &ePrinter&r. Share enchantments and information effortlessly."
+				""
+				"&6Tweaked tools&r: &eDeployers&r and &eCrushing Wheels&r now reward you with experience nuggets from kills, fueling your enchanting endeavors."
+				""
+				"&6Push the limits&r: Achieve the impossible with the &eHyper-enchant mechanism&r, unlocking enchantments beyond the usual level cap. Forge truly legendary gear!"
+				""
+				"&6Mending made easy&r: Repairing Mending-enchanted items becomes a breeze! Combine them with &eSpouts&r and &eliquid experience&r for effortless maintenance."
+				""
+				"&6Bonus&r: Equip your &eDeployer&r with a &5Sweeping Edge&r sword for multi-target harvesting, maximizing your resource gathering efficiency."
+				""
+				"&6Quark&r: Copy the powerful &eAncient Tome&r using any &eenchanted book&r with the &ePrinter&r, expanding your magical repertoire."
+				""
+				""
+				"This is just the beginning! Discover countless possibilities as you master experience and enchanting."
+			]
+			hide: true
+			icon: "create_enchantment_industry:enchanting_guide"
+			id: "1A8EE600C597B69C"
+			subtitle: "Craft, Enchant, Empower"
+			tasks: [{
+				id: "533438186481D018"
+				title: "Create Magic"
+				type: "checkmark"
+			}]
+			title: "Create Enchantments"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E9243322CE98F02"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Soar through the skies of Minecraft with &6Immersive Aircraft&r!"
+				""
+				"You can Create a variety of rustic aircrafts, allowing you to travel, transport goods, and explore the world in a whole new way!"
+				""
+				"Whether you're looking for a speedy biplane, an airship for you and your friend, or a unique gyrodyne, there's an aircraft perfect for you."
+				""
+				"Remember, you can upgrade and tune your aircraft to your liking!"
+			]
+			hide: true
+			icon: "immersive_aircraft:biplane"
+			id: "740A17B03FD155D7"
+			subtitle: "Trains are Cool, but What About flying!?"
+			tasks: [{
+				id: "08041FD0AE18CB05"
+				title: "Fly away~"
+				type: "checkmark"
+			}]
+			title: "Create Planes"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"How do you plan to store the vast amount of items you may have?"
+				""
+				"The most efficient and powerful way would be using Toms Simple Storage."
+				""
+				""
+				"Create and grow your storage as your progress!"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "minecraft:chest"
+			id: "2C1DAA1D30B2BDBD"
+			shape: "square"
+			subtitle: "The Most Important Part of a Base is The Storage!"
+			tasks: [{
+				id: "415F6F938D8A6060"
+				title: "Storage"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: ["&2Print(\"Hello World\")&r"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "computercraft:computer_normal"
+			id: "08DE998612AB4C66"
+			shape: "square"
+			subtitle: "Programmable Computers, Turtles and More!"
+			tasks: [{
+				id: "3C34409FB572C01B"
+				title: "Computers"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E9243322CE98F02"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Drowning in unwanted items? &eCrushing Wheels&r offer the answer. Breathe new life into old armor, tools, and weapons, transforming them into valuable ingots, nuggets, and shards for your crafting needs. "
+				""
+				"Even wood scraps from various sources become useful sticks. Also, don't worry about accidental losses - iron blocks and similar \"compact\" items safely convert to ingots. Dungeon loot like rails, bars, and duplicate music discs? Crushing Wheels turn them into valuable resources. Leftover redstone components? Repurpose them for future contraptions! "
+				""
+				"Don't let clutter hold you back - unlock endless possibilities with the \"&eCrushing Wheel&r\" and transform your world!"
+			]
+			hide: true
+			icon: "create:crushing_wheel"
+			id: "468F77E0E24BF7B5"
+			subtitle: "Transform Clutter Into Treasures"
+			tasks: [{
+				id: "115D6F91EEDF466C"
+				title: "Create Recycling"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"7E9243322CE98F02"
+				"08DE998612AB4C66"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"Ever dreamed of a factory run by the power of Lua? &6CC:C Bridge&r makes it a reality, seamlessly merging the worlds of &6ComputerCraft&r and &6Create&r!"
+				""
+				"&6Empower your creations&r: Utilize ComputerCraft computers to automate even more, leveraging the Lua programming language for complex control."
+				""
+				"&6Unlock deeper access&r: Dedicated peripherals bridge the gap, granting your computers direct interaction with Create's features."
+				""
+				"&lUnleash creative freedom&r:"
+				""
+				"&6Source and Target Blocks&r: Mimic existing Create sources and targets, enabling communication across your network."
+				"&6RedRouter Block&r: Send and receive redstone signals effortlessly, eliminating channel limitations and simplifying complex setups."
+				"&6Scroller Pane&r: Input numbers directly into your Create interface using a convenient, interactive panel."
+				"&6Animatronic&r: Breathe life into your creations with this programmable puppet, crafting dynamic and expressive displays."
+				""
+				"Create endless possibilities and unlock a new level of automation and creativity in your world!"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "cccbridge:scroller_block"
+			id: "00F9D4E86C46FD54"
+			shape: "rsquare"
+			subtitle: "Bridge the Gap: Seamless Automation"
+			tasks: [{
+				id: "6B2A4B14EC27184E"
+				title: "Create Computers"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7E9243322CE98F02"
+				"0A15C9AD4E56865A"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"You can blend the power of &6Ars Nouveau&r and &6Create&r, bridging the gap between magic and machinery."
+				""
+				"&6Starbuncle Wheel&r: Harness the raw energy of starbuncles to generate Stress Units (SU) for your Create contraptions."
+				""
+				"&6Spell Turrets&r: Integrate magic into your creations! Mount Spell Turrets on contraptions to cast spells automatically."
+				""
+				"- Timer Turrets: Trigger spells at regular intervals for rhythmic automation."
+				"- Basic Turrets: Activate spells with a simple interaction, adding a touch of magic to your contraptions."
+				"- Enhanced Turrets: Cast spells every time your contraption moves, unleashing dynamic magic effects."
+				""
+				"&6Source Jars&r: Store and channel magical power within your contraptions. Use them to fuel Spell Turrets and create intricate magical automation systems."
+				""
+				"Explore the possibilities! Combine your existing knowledge of Ars Nouveau and Create to build awe-inspiring, automated marvels infused with magical power. Your creativity is the only limit!"
+			]
+			hide: true
+			icon: "ars_creo:starbuncle_wheel"
+			id: "3A75EA71C6650FC4"
+			subtitle: "Unleash Magical Automation"
+			tasks: [{
+				id: "0D3D8046DCF8BA73"
+				title: "Create Magic"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"Did you know you have the ability to bind two blocks together, treating them as one!? Transfer items, fluids, even energy instantly! Hide unsightly cables, create hidden pathways, or design complex machines with ease - the possibilities are yours to explore!"
+				""
+				""
+				"&6Crafting the Connection&r:"
+				""
+				"- Forge an Entangled Block, the core of your connection."
+				"- Craft an Entangled Binder, your tool to entangle blocks."
+				""
+				""
+				"&6Binding Blocks&r:"
+				""
+				"1. Place your Entangled Block."
+				"2. '&2Right-click&r' the target block with the Entangled Binder."
+				"3. '&2Right-click&r' your Entangled Block with the Binder. Voilà! They're merged!"
+				""
+				""
+				"&6Unleashing the Bond&r:"
+				""
+				"1. Hold an empty slot in your hotbar."
+				"2. '&2Crouch&r' and '&2Right-Click&r' the bound block. The connection breaks free!"
+				""
+				"Experiment, explore, and conquer the limitations of space!"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "entangled:block"
+				tag: { }
+			}
+			id: "0EBB07D8501D6757"
+			shape: "square"
+			subtitle: "Unleash The Power of Connection"
+			tasks: [{
+				id: "2F7518FC802992D9"
+				title: "Entanglement"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"You can try trains, you can try planes, but did you ever think you would reach space?"
+				""
+				"Learn everything about space travel by reading the '&eAstrodux&r'."
+				"You will learn how to build your own rockets, space suits, and space stations."
+				""
+				"Soon, every celectial will be at the tip of your finger."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			id: "19373B11B0AEE087"
+			rewards: [{
+				id: "1E4D8E83C7048650"
+				item: "ad_astra:astrodux"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Fly High Enough and You Might Reach The Moon..."
+			tasks: [{
+				id: "1EDB47027D016AF2"
+				title: "Fly Me to The Moon"
+				type: "checkmark"
+			}]
+			title: "Visit Other Planets!"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7E9243322CE98F02"]
+			dependency_requirement: "one_started"
+			description: [
+				"Craft from nine unique weapons - &epistols&r, &eshotguns&r, &erifles&r, &egrenade launchers&r, and &lmore&r! Customize each to your liking with &escopes&r, &estocks&r, &egrips&r, and &esilencers&r. Powerful enchantments further enhance their capabilities."
+				""
+				"With your new-made guns, you can land precision headshots on many mobs and player, and fine-tune weapon to be unique to &lyou&r!"
+				""
+				"Arm yourself with your personal diverse arsenal 🔫"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "cgm:rifle"
+				tag: {
+					AmmoCount: 10
+				}
+			}
+			id: "368D1558A4BFA208"
+			subtitle: "Unleash Your Inner Sharpshooter"
+			tasks: [{
+				id: "62419C51B9675E53"
+				title: "Create Guns"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E9243322CE98F02"]
+			dependency_requirement: "one_started"
+			description: [
+				"&6Diesel generators&r brings Create from the steam age, to the modern age!"
+				""
+				"There are now new &epower sources&r that require new &efuels&r. As well as new interesting ways of obtaining them."
+				""
+				"Create your first &ediesel engine&r and power your world now!"
+			]
+			hide: true
+			icon: "createdieselgenerators:diesel_engine"
+			id: "2BDAC2C9DBE3BA09"
+			subtitle: "So oily..."
+			tasks: [{
+				id: "4C80E82004B98FF4"
+				title: "Create Diesel"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+	]
+	title: "Technology"
+}

@@ -1,0 +1,51 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building"
+	group: "3A38A9217806CA03"
+	id: "788D0567B7A01036"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: ["With a \"&eConstruction Wand&r\" item you can place multiple blocks (up to 1024) at once, extending your build on the side you're facing. If that's not enough: you can upgrade your wand with additional &ecores&r, allowing you to place a block behind the block you are facing, conjure blocks in mid air or destroy lots of blocks very fast!"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "constructionwand:stone_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+			id: "018B88F689F6D57D"
+			subtitle: "Construction Made Easy."
+			tasks: [{
+				id: "6AF55583BA69D839"
+				title: "Construction Wands"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: ["Sometimes, building large structures can be a little tedious, and take a lot of effort. Not all of us a great builders you know! \"&eBuilding Gadgets&r\" aims to make building a little bit easier."]
+			hide: true
+			icon: "buildinggadgets2:gadget_building"
+			id: "7ACAFD2B074D1ECD"
+			subtitle: "The Best Gadget for a Builder!"
+			tasks: [{
+				id: "224194CB2440C09E"
+				title: "Building Gadgets"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+	title: "Building"
+}

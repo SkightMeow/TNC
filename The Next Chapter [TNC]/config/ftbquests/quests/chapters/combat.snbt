@@ -1,0 +1,206 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "combat"
+	group: "3A38A9217806CA03"
+	id: "29DD7D060F46B63D"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3C04A0805D29F4CE"]
+			dependency_requirement: "one_started"
+			description: [
+				"Prepare to unleash some stylish moves and &4decimate&r your foes with these handy tips:"
+				""
+				"&6Hit What You See&r: No more pixel-perfect targeting! Swing your weapon and connect with anything in its path, even in third-person view. Feels way more natural, right?"
+				""
+				"&6Master the Flow&r: Attacks have weight! There's a build-up before the strike, Time your hits right for maximum impact."
+				""
+				"&6Combo Time!&r: Some weapons have special sequences. String attacks together for devastating combos!"
+				""
+				"&6Double the Trouble&r: Feeling adventurous? Equip two one-handed weapons and unleash a whirlwind of attacks! Just alternate the attack button to switch between your main and off-hand."
+				""
+				"&6Two Hands for Big Power&r: Two-handed weapons mean serious business. They disable your off-hand, but pack a mighty punch."
+				""
+				"&6Sweeping is Sweet (with a twist)&r: Hitting multiple enemies with a swing? Cool! But the damage gets split. Want to hit them all full force? Get yourself the Sweeping Edge enchantment."
+				""
+				"&6Attack on Demand&r: Hold down the attack button to unleash a flurry of blows, cooldown permitting. Great for clearing out mobs or showing off your skills."
+				""
+				"&6Grass? More Like Slash&r: Forget mining! Swing your weapon through tall grass. Now that's efficiency!"
+				""
+				""
+				"Remember, practice makes perfect! Experiment with different weapons, master the combos, and you'll be a combat legend in no time. Now go out there and conquer!"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:golden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3CB47EDFBF553322"
+			shape: "rsquare"
+			subtitle: "Alright, Let's Talk Combat!"
+			tasks: [{
+				id: "0A310198B7749C43"
+				title: "Better Combat"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3CB47EDFBF553322"]
+			dependency_requirement: "one_started"
+			description: [
+				"Craft yourself a &eTarget Dummy&r to practice on!"
+				""
+				"This dummy can be placed in the world. It stands there watching you and judging your every move..."
+				""
+				"Attacking it will display how much damage your weapon of choice deals."
+				""
+				"Also, if you want to test armours, you can equip the dummy with it."
+			]
+			hide_dependency_lines: true
+			icon: "dummmmmmy:target_dummy"
+			id: "19482EB8FAA4FB80"
+			subtitle: "Please Don't Hurt Me :("
+			tasks: [{
+				id: "32F1C2D0916DBA64"
+				title: "Target Dummy"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CB47EDFBF553322"]
+			dependency_requirement: "one_started"
+			description: [
+				"Unleash the Power of the &bTrident&r!"
+				""
+				"&6Forge Your Own Destiny&r: No more waiting for lucky drops! Craft your own trident by collecting fragments from each Elder Guardian in an Ocean Monument. Combine them with Prismarine Shards, and bam! You've got a brand new weapon at your disposal. (You can also use Iron Blocks)"
+				""
+				"&6Repairs Made Easy&r: Tridents take a beating, but don't worry. When it starts to wear down, just toss a few Prismarine Shards at it in an anvil, and you're good to go. Keep that trusty trident fighting fit!"
+				""
+				"&6Boomerang Bonanza&r: Tridents always return to the slot they are thrown from when picked up again."
+				""
+				"&6Loyalty Beyond Compare&r: Enchant your trident with Loyalty, and even if you accidentally hurl it into the &0&lvoid&r, it'll come back to you like a lost puppy. No more tears over lost treasures!"
+				""
+				"&6Loot Magnet&r: Imagine this: you slay a mob, and all the loot, including XP just falls into lava... Yeah that won't happen again. now it flies straight to you along with your trusty, Loyalty-enchanted trident. Talk about convenience!"
+				""
+				"&6Impaling Power&r: Forget limitations! Unlike Bedrock Edition, Impaling now hurts any mob touching water or rain, not just specific aquatic creatures. Unleash the pain on all your watery foes!"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "08B1BD8340C289D0"
+			subtitle: "They Can Be VERY Loyal."
+			tasks: [{
+				id: "761E8F1A1B9CB780"
+				title: "Better Tridents"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CB47EDFBF553322"]
+			dependency_requirement: "one_started"
+			description: [
+				"Ready to raise your shield-game to a whole new level?"
+				""
+				"&6Gear Up&r: Shields now come in tiers, just like weapons, offering different levels of protection and parrying prowess."
+				""
+				"&6The Cooldown Conundrum&r: Blocking an attack puts your shield on cooldown, forcing you to think strategically. Lowering your shield too soon triggers it too, so timing is key!"
+				""
+				"&6Parry Like a Pro&r: Master the art of parrying! Time your shield raise just right to negate the cooldown, shove attackers back, and even deflect projectiles! Feels good, right?"
+				""
+				"&6The Bash and the Bite&r: Wooden and golden shields might just push enemies back, but anything stronger packs a Parry-Bash. Smack enemies right back for a chunk of their attack damage! The higher the tier, the stronger the bash, but remember, parrying windows get smaller too."
+				""
+				"So ditch the passive blocking and become an active defender! With practice, you'll be deflecting blows, bashing foes, and mastering the art of combat like never before. Now go forth and shield yourself to glory!"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "70EB787DBF110EB2"
+			subtitle: "Shield Up and Master the Art of Defense!"
+			tasks: [{
+				id: "4CDC08B7E9E509A0"
+				title: "Better Shields"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CB47EDFBF553322"]
+			dependency_requirement: "one_started"
+			description: [
+				"Master the Improved Totem of Undying!"
+				""
+				""
+				"&6Void Protection&r: Say goodbye to elytra fails! Fall into the End void? The Totem teleports you back to safety, items intact."
+				""
+				"&6Totem Knockback&r: Mob swarm got you pinned? The Totem activates, blasting attackers away for a quick escape."
+				""
+				"&6Suffocation Protection&r: Buried alive? No sweat! The Totem destroys suffocation blocks, giving you room to breathe."
+				""
+				"&6Food Boost&r: Running on fumes? The Totem grants a hunger bump, giving you energy to flee danger."
+				""
+				"&6Smarter Effects&r: Water Breathing kicks in only when drowning, Fire Resistance when burning. No wasting power!"
+				""
+				"Remember, the Totem still revives once, so use it wisely! Now go explore, knowing you have extra lives (and escapes) at your fingertips."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:totem_of_undying"
+			id: "3CB71180EC92645B"
+			subtitle: "Defy Death"
+			tasks: [{
+				id: "599761FCFA1DC6E6"
+				title: "Totems of Undying"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3CB47EDFBF553322"]
+			dependency_requirement: "one_started"
+			description: [
+				"Modular items and exciting discoveries await."
+				""
+				"Begin by crafting a &6Tetra&r &eMallet&r (&eWooden Hammer&r) using two &esticks&r and two &eplanks&r. Next, place a vanilla &ecrafting table&r and &2right-click&r it with the &eMallet&r to transform it into a powerful workbench!"
+				""
+				"Take your existing vanilla weapons, tools, or bows and place them in the workbench. Watch as they transform into modular components, ready for customization and advancement."
+				""
+				"Explore the Tetra advancements menu to learn more about all the possibilities."
+				""
+				"Craft tools that grow with &lYOU&r."
+			]
+			hide: true
+			icon: "tetra_tables:tetra_table_oak"
+			id: "338DDDBD238FD374"
+			subtitle: "Modular Marvels"
+			tasks: [{
+				id: "487E49CA3583EFC8"
+				title: "Tetra"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+	]
+	title: "Combat"
+}

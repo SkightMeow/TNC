@@ -1,0 +1,15 @@
+{
+  "rendering": {
+    "oldRotation": false,
+    "vanillaRendering": true,
+    "rotateSpeed": 1.0,
+    "showPickupTooltip": true,
+    "showPickupTooltipExtended": false,
+    "showPickupTooltipKeybind": false,
+    "disableThrowHUD": false,
+    "vanillaRendered": {
+      "entries": [],
+      "isWhitelist": true
+    }
+  }
+}
