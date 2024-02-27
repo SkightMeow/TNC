@@ -323,7 +323,7 @@
 				type: "checkmark"
 			}]
 			x: 1.0d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3C04A0805D29F4CE"]
@@ -341,7 +341,7 @@
 				type: "checkmark"
 			}]
 			x: 1.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7E9243322CE98F02"]
@@ -399,7 +399,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -476,41 +476,7 @@
 				type: "checkmark"
 			}]
 			x: 1.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["3C04A0805D29F4CE"]
-			dependency_requirement: "one_started"
-			description: [
-				"You can try trains, you can try planes, but did you ever think you would reach space?"
-				""
-				"Learn everything about space travel by reading the '&eAstrodux&r'."
-				"You will learn how to build your own rockets, space suits, and space stations."
-				""
-				"Soon, every celectial will be at the tip of your finger."
-			]
-			hide: true
-			icon: {
-				Count: 1b
-				id: "ad_astra:tier_1_rocket"
-				tag: { }
-			}
-			id: "19373B11B0AEE087"
-			rewards: [{
-				id: "1E4D8E83C7048650"
-				item: "ad_astra:astrodux"
-				type: "item"
-			}]
-			shape: "square"
-			subtitle: "Fly High Enough and You Might Reach The Moon..."
-			tasks: [{
-				id: "1EDB47027D016AF2"
-				title: "Fly Me to The Moon"
-				type: "checkmark"
-			}]
-			title: "Visit Other Planets!"
-			x: 1.0d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7E9243322CE98F02"]
