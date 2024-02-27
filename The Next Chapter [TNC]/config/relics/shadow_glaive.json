@@ -77,5 +77,8 @@
       "minecraft:chests/ancient_city_ice_box": 0.075,
       "[\\w]+:chests\\/[\\w_\\/]*(warden|sculk|echo)[\\w_\\/]*": 0.075
     }
+  },
+  "style": {
+    "style": "DEFAULT"
   }
 }

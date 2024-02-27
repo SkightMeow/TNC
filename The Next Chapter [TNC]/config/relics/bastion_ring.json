@@ -33,5 +33,8 @@
     "entries": {
       "[\\w]+:chests\\/[\\w_\\/]*(bastion|piglin)[\\w_\\/]*": 0.075
     }
+  },
+  "style": {
+    "style": "DEFAULT"
   }
 }
