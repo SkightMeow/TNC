@@ -3,7 +3,7 @@
 	#
 	#List of items to considered as shields, any item with right-click functionality will theoretically work
 	#Automatically populated with items that have parrying stats set by active datapacks
-	shieldList = ["blue_skies:spike_shield", "shieldexp:wooden_shield", "shieldexp:griefer_shield", "blue_skies:moonstone_shield", "shieldexp:iron_shield", "shieldexp:netherite_shield", "stalwart_dungeons:tungsten_shield", "alexsmobs:shield_of_the_deep", "minecraft:shield", "shieldexp:golden_shield", "stalwart_dungeons:chorundum_shield", "shieldexp:diamond_shield", "shieldexp:paragon_shield", "stalwart_dungeons:warted_tungsten_shield", "artifacts:umbrella"]
+	shieldList = ["blue_skies:spike_shield", "shieldexp:wooden_shield", "shieldexp:griefer_shield", "blue_skies:moonstone_shield", "shieldexp:iron_shield", "shieldexp:netherite_shield", "stalwart_dungeons:tungsten_shield", "alexsmobs:shield_of_the_deep", "minecraft:shield", "shieldexp:golden_shield", "stalwart_dungeons:chorundum_shield", "shieldexp:diamond_shield", "shieldexp:paragon_shield", "stalwart_dungeons:warted_tungsten_shield", "artifacts:umbrella", "alexscaves:resistor_shield", "ars_nouveau:enchanters_shield", "bygonenether:gilded_netherite_shield", "undergarden:cloggrum_shield", "lost_aether_content:zanite_shield", "lost_aether_content:gravitite_shield", "lost_aether_content:shield_of_emile", "aether:shield_of_repulsion", "deep_aether:skyjade_shield", "deep_aether:stratus_shield", "the_bumblezone:honey_crystal_shield", "legendary_monsters:frostbitten_shield", "legendary_monsters:dinosaur_bone_shield", "legendary_monsters:shulker_shield"]
 	#
 	#List of items to not consider as shields, even if they have stats set by a datapack
 	shieldBlacklist = []

@@ -876,9 +876,6 @@
 				window_pane = true
 				window = true
 
-			[general.entries.wood_type.backpacked]
-				backpack_shelf = true
-
 			[general.entries.wood_type.friendsandfoes]
 				beehive = true
 
