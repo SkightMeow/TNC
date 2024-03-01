@@ -9,7 +9,8 @@ PlayerEvents.loggedIn(e => {
    
   // Give some items to the player
   e.player.give('ftbquests:book');
-  e.player.give('minecraft:stone_pickaxe');
+  e.player.give('minecraft:wooden_pickaxe');
+  e.player.give('minecraft:wooden_sword');
   e.player.give('7x minecraft:apple');
  }
 });

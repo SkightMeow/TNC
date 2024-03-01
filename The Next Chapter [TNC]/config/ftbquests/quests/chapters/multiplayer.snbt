@@ -136,11 +136,23 @@
 				"The person (Other than you) who acquires your TelePass holds the power to teleport directly to you. However, If you're offline or in another world, the TelePass remains inactive."
 			]
 			hide: true
-			icon: "telepass:gold_telepass"
+			icon: {
+				Count: 1b
+				id: "telepass:gold_telepass"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0372916D52518C44"
 			rewards: [{
 				id: "2608ECBC31980558"
-				item: "telepass:gold_telepass"
+				item: {
+					Count: 1b
+					id: "telepass:gold_telepass"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			subtitle: "Forge Bonds"

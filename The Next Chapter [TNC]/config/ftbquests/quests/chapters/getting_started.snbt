@@ -557,33 +557,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["36A272CB3F6E28EA"]
-			dependency_requirement: "one_started"
-			description: [
-				"In your inventory, there is a slot where you can place your backpack claimed from this quest."
-				""
-				"By pressing the key '&2B&r', you can access your backpack as well as customize it! each customization requires completing a challenge to unlock it."
-				""
-				"Did you know you can also pickpocket a wandering villager if he's wearing a backpack? Try not to get caught 😯"
-			]
-			hide: true
-			icon: "backpacked:backpack"
-			id: "53B28D81FDF42199"
-			rewards: [{
-				id: "77F160EF2BE985FA"
-				item: "backpacked:backpack"
-				type: "item"
-			}]
-			subtitle: "What's a traveller without with their backpack?"
-			tasks: [{
-				id: "6359466C815F8191"
-				title: "Backpacked"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: 2.5d
-		}
-		{
 			dependencies: ["17091BA71CF77670"]
 			dependency_requirement: "one_started"
 			description: [
@@ -631,7 +604,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["53B28D81FDF42199"]
+			dependencies: ["36A272CB3F6E28EA"]
 			dependency_requirement: "one_started"
 			description: [
 				"Struggling with limited inventory? Say goodbye! The \"&eTraveler's Backpack&r\" &lexpands&r your carrying capacity with a whopping &l60 slots&r and &l2 fluid tanks&r, capable of storing buckets of liquids or even &l24 potion bottles&r. Manage your gear effortlessly with built-in sorting, stacking, and transfer buttons - all easily accessible through external pipes or a quick keypress."
@@ -655,7 +628,7 @@
 				title: "Traveler's Backpack"
 				type: "checkmark"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 2.5d
 		}
 		{
