@@ -92,7 +92,8 @@
     "hud.redstone": true
   },
   "delightful": {
-    "crop_progress": true
+    "crop_progress": true,
+    "pie_icons": true
   },
   "jadecolonies": {
     "colony.citizens": true,

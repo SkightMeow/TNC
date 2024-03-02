@@ -4,7 +4,7 @@
 	filename: "technology"
 	group: "3A38A9217806CA03"
 	id: "345486051C9BCF53"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -99,11 +99,8 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"7E9243322CE98F02"
-				"70195F81D4A8A19A"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["7E9243322CE98F02"]
+			dependency_requirement: "one_started"
 			description: [
 				"Craft delectable dishes with ease! The &eSlicer&r automates chopping tasks, mimicking a cutting board. Place &eknives&r or &eaxes&r within and watch ingredients perfectly prepare themselves. Enjoy &6Farmer's Delight&r recipes and more!"
 				""
