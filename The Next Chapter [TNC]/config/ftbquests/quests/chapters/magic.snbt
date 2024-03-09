@@ -32,7 +32,7 @@
 				type: "checkmark"
 			}]
 			title: "Ars Nouveau"
-			x: -1.5d
+			x: -1.0d
 			y: -0.5d
 		}
 		{
@@ -68,7 +68,7 @@
 				title: "Occultism"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -95,7 +95,7 @@
 				title: "Ars Ocultas"
 				type: "checkmark"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -124,7 +124,7 @@
 				title: "Pylons"
 				type: "checkmark"
 			}]
-			x: -0.5d
+			x: 1.0d
 			y: 1.5d
 		}
 		{
@@ -187,6 +187,66 @@
 			}]
 			x: 1.0d
 			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7E9243322CE98F02"
+				"3C04A0805D29F4CE"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"Create your fantasy of spellcasting with Iron's Spells 'n Spellbooks! Arcane knowledge and power all within your &espellbook&r."
+				""
+				"&lUnveiling Magic&r:"
+				""
+				"&6Upgradable Spells&r: Master a vast arsenal of spells, each waiting to be honed to devastating effect."
+				"&6Weapon Imbuement&r: Infuse your weapons with elemental fury, unleashing magic with every swing."
+				"&6Armor System&r: Craft and empower enchanted armor to enhance your magical prowess."
+				"&6Wizard Armor Sets&r: Specialize in different magical disciplines with unique armor sets."
+				""
+				"&lProgression Through the Arcane Arts&r:"
+				""
+				"- &6Early Game&r: Gather &escrolls&r and craft basic &espellbooks&r to unlock your magical potential."
+				"- &6Mid Game&r: Forge your own &escrolls&r, harness nether resources, and craft stronger &earmor&r."
+				"- &6Late Game&r: Ascend to ultimate power with the &eArcane Anvil&r, leveling spells, forging legendary equipment, and imbuing weapons with devastating magic."
+				""
+				"&lTreasures Along the Way&r:"
+				""
+				"&eRings&r, Unique &eSpellbooks&r, and &eMagical Resources&r: Every corner of your adventure holds the potential for arcane discoveries."
+				"&eArcane Essence&r: The cornerstone of magic, found throughout your expeditions."
+				"&eRunestones&r: Rare and potent materials, often guarded by powerful foes or hidden within ancient structures."
+				""
+				"Embrace Iron's Spells 'n Spellbooks and forge your path as a master mage!"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "irons_spellbooks:iss_guide_book"
+				}
+			}
+			id: "1665D8B1C69E5F50"
+			rewards: [{
+				id: "14816A26E5A698AB"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "irons_spellbooks:iss_guide_book"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "The Arcane Might of Iron's Spells 'n Spellbooks!"
+			tasks: [{
+				id: "67E85B2847A53A22"
+				title: "Spell Books"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
 		}
 	]
 	title: "Magic"
